@@ -10,7 +10,7 @@ Add your answers to the questions below.
 
 3. What is the runtime complexity of your ring buffer's `get` method?
 
-	`O(1)` – no loops
+	`O(1)` when returning the entire list. `O(n)` worst case when there are `None`s in the list.
 
 4. What is the space complexity of your ring buffer's `get` method?
 
